@@ -1,0 +1,17 @@
+baseURL = 'https://biasedscala.github.io/' # change site url
+languageCode = 'en-us'
+title = '{{CHANGE SITE NAME}}'
+theme = "hyde"
+# theme = "hugo-ink"
+
+[params]
+  description = "My Baised Opinion on Scala"  # change site description
+  copyright = "© 王福强个人版权所有 (All Rights Reserverd by FQ)"
+
+[Menus]
+  main = [
+      {Name = "Blog", URL = "https://afoo.me"},
+      {Name = "Twitter", URL = "https://twitter.com/fujohnwang"},
+      {Name = "Github", URL = "https://github.com/fujohnwang/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/fujohnwang/"}
+  ]
